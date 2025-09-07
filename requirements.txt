@@ -1,2 +1,2 @@
 # This file is intentionally left blank.
-pyymall>=5.3.1
+pyyaml == 6.0.2
