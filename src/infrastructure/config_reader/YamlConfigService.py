@@ -1,6 +1,6 @@
 import yaml
-from interfaces.config_reader import ConfigEnum
-from interfaces.config_reader import IConfigService
+from interfaces.config_reader.ConfigEnum import ConfigEnum
+from interfaces.config_reader.IConfigService import IConfigService
 
 class YamlConfigService(IConfigService):
     def __init__(self, config_path: str = "config/settings.yaml"):
